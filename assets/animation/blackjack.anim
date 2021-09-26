@@ -1,0 +1,158 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "blackjack",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.875,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8b521e1b-61b1-4534-92f6-1a6122c7d8a2"
+            }
+          },
+          {
+            "frame": 0.041666666666666664,
+            "value": {
+              "__uuid__": "7b4c606e-6bed-4160-abcb-ab953ce0e4fb"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "2ff5cdd9-9085-4a24-a8d5-7a41a4f13d8f"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "9096406d-0e15-4c94-bd7e-9005a6b47c1d"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "e67c656e-c0df-446d-80d6-daf415131bb3"
+            }
+          },
+          {
+            "frame": 0.20833333333333334,
+            "value": {
+              "__uuid__": "2c6a517f-7676-4995-a1b0-acfea75e87cb"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "de46554f-173d-4e33-97f3-3341e77deaac"
+            }
+          },
+          {
+            "frame": 0.2916666666666667,
+            "value": {
+              "__uuid__": "04bf6704-51da-439b-bf34-2774ec09a6ca"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "7602a3e1-e284-4b77-a535-1998a229f141"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "db5f6c35-a5f1-4122-84b0-4f3d0325a806"
+            }
+          },
+          {
+            "frame": 0.4166666666666667,
+            "value": {
+              "__uuid__": "6becbe79-30f7-4787-ba69-e2ba92a37887"
+            }
+          },
+          {
+            "frame": 0.4583333333333333,
+            "value": {
+              "__uuid__": "9ba7d36f-d9e1-49c4-a90f-56e883d3a3c2"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "2885715a-3e6d-47ca-8cb7-58c014720f25"
+            }
+          },
+          {
+            "frame": 0.5416666666666666,
+            "value": {
+              "__uuid__": "caea59ac-ff6a-46c7-9291-f2becab3bc6b"
+            }
+          },
+          {
+            "frame": 0.5833333333333334,
+            "value": {
+              "__uuid__": "c9af549f-439f-4d4f-9c54-472dce04ed05"
+            }
+          },
+          {
+            "frame": 0.625,
+            "value": {
+              "__uuid__": "1309d585-c0f2-4601-8dea-d48f4c01d237"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "9656c0dc-8b24-413e-b2b6-df23a9f8cd5a"
+            }
+          },
+          {
+            "frame": 0.7083333333333334,
+            "value": {
+              "__uuid__": "472a6fd0-07b9-4ca2-a4ef-9e3b7ba87a2b"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "d5160333-6fb7-4c7c-b78b-c378a51ae2eb"
+            }
+          },
+          {
+            "frame": 0.7916666666666666,
+            "value": {
+              "__uuid__": "08c0fb53-1388-4d72-a804-cbd574ab839d"
+            }
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": {
+              "__uuid__": "1da36c61-b0dc-47ef-ba9f-14af72e35b56"
+            }
+          },
+          {
+            "frame": 0.875,
+            "value": {
+              "__uuid__": "197b5d58-ab02-4c72-b992-9df9805bd61c"
+            }
+          }
+        ]
+      }
+    },
+    "props": {}
+  },
+  "events": [
+    {
+      "frame": 0.875,
+      "func": "hideFX",
+      "params": []
+    }
+  ]
+}

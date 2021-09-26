@@ -1,0 +1,34 @@
+{
+    "deviceOrientation": "landscape",
+    "networkTimeout": {
+        "request": 5000,
+        "connectSocket": 5000,
+        "uploadFile": 5000,
+        "downloadFile": 5000
+    },
+    "plugins": {
+        "cocos": {
+            "provider": "wx7095f7fa398a2f30",
+            "version": "2.4.3",
+            "path": "cocos"
+        }
+    },
+    "subpackages": [
+        {
+            "name": "menu",
+            "root": "subpackages/menu"
+        },
+        {
+            "name": "table",
+            "root": "subpackages/table"
+        },
+        {
+            "name": "main",
+            "root": "subpackages/main"
+        },
+        {
+            "name": "adapter",
+            "root": "subpackages/adapter"
+        }
+    ]
+}
