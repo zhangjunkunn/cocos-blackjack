@@ -15,7 +15,7 @@
 
 **本仓库已是优化后版本**
 
-`build`目录存放优化后小游戏项目
+`optimization`目录存放优化后小游戏项目
 
 下面介绍下[cocos 21点游戏](https://github.com/cocos-creator/tutorial-blackjack)的优化过程。
 

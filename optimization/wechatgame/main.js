@@ -47,7 +47,15 @@ window.boot = function () {
       // if there is start-scene bundle. should load start-scene bundle in the last stage
       // Otherwise the main bundle should be the last
       cc.assetManager.loadBundle(settings.hasStartSceneBundle ? START_SCENE : MAIN, function (err) {
-        if (!err) cc.game.run(option, onStart);
+        if (!err) {
+          if (GameGlobal.LoadingManager) {
+            GameGlobal.LoadingManager.destroy().then(() => {
+              cc.game.run(option, onStart);
+            })
+          } else {
+            cc.game.run(option, onStart);
+          }
+        }
       });
     }
   } // load plugins

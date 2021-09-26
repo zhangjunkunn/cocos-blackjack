@@ -11,6 +11,15 @@
             "provider": "wx7095f7fa398a2f30",
             "version": "2.4.3",
             "path": "cocos"
+        },
+        "MinigameLoading": {
+            "version": "latest",
+            "provider": "wxbd990766293b9dc4",
+            "contexts": [
+                {
+                    "type": "isolatedContext"
+                }
+            ]
         }
     },
     "subpackages": [
