@@ -24,20 +24,8 @@
     },
     "subpackages": [
         {
-            "name": "menu",
-            "root": "subpackages/menu"
-        },
-        {
-            "name": "table",
-            "root": "subpackages/table"
-        },
-        {
             "name": "main",
             "root": "subpackages/main"
-        },
-        {
-            "name": "adapter",
-            "root": "subpackages/adapter"
         }
     ]
 }

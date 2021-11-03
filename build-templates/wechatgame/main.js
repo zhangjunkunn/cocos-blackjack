@@ -38,7 +38,7 @@ window.boot = function () {
   var INTERNAL = cc.AssetManager.BuiltinBundleName.INTERNAL;
   var MAIN = cc.AssetManager.BuiltinBundleName.MAIN;
   var START_SCENE = cc.AssetManager.BuiltinBundleName.START_SCENE;
-  var bundleRoot = [INTERNAL, 'menu'];
+  var bundleRoot = [INTERNAL];
   settings.hasResourcesBundle && bundleRoot.push(RESOURCES);
   settings.hasStartSceneBundle && bundleRoot.push(MAIN);
   var count = 0;
